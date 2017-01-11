@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/calendar" android:id="@+id/navItem1" android:title="Calendar" />
+        <item android:icon="@drawable/twitter" android:id="@+id/navItem2" android:title="#GDGThess Live Feed" />
+        <item android:icon="@drawable/speaker" android:id="@+id/navItem3" android:title="Speakers" />
+        <item android:icon="@drawable/account" android:id="@+id/navItem4" android:title="Team" />
+        <item android:icon="@drawable/sponsors" android:id="@+id/navItem5" android:title="Partners" />
+    </group>
+</menu>
