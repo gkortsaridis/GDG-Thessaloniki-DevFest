@@ -14,7 +14,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <!-- ALL DAY - Smart Room -->
+            <!-- DOORS OPEN -->
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="All Day"
+                        android:text="12:00 - 13.00"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="25sp"
@@ -45,137 +45,56 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Smart Environment Room"
+                        android:text="Doors Open"
+                        android:textSize="20sp"
+                        android:layout_margin="8dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- Check In -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13.00 - 13.30"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_margin="8dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#424242"
+                        android:layout_marginLeft="8dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check In"
                         android:textSize="20sp"
                         android:layout_margin="8dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Room D"
+                        android:text="FOYER"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="17sp"
                         android:layout_margin="8dp"/>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- Morning Coffee + Check In -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="9.30-10.30"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:layout_margin="8dp"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Check In + Morning Coffee"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- Keynote -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10.30-11.30"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:layout_margin="8dp"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Keynote Tech Talk"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"
-                                android:id="@+id/person1_name"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -196,7 +115,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="11.30-12.10"
+                        android:text="13.30"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="25sp"
@@ -208,52 +127,63 @@
                         android:background="#424242"
                         android:layout_marginLeft="8dp"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Session Web"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
 
+                    <!-- George Kortsaridis -->
                     <LinearLayout
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
+                        android:id="@+id/kortsaridis"
                         android:background="?attr/selectableItemBackground">
 
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hack the Real World with ANDROID THINGS"
+                            android:textSize="20sp"
                             android:layout_margin="8dp"/>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                            <TextView
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/kortsaridis"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="George Kortsaridis"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Android Things Room\nB3 | 2nd Floor"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
 
                         </LinearLayout>
+
+
                     </LinearLayout>
 
                     <View
@@ -262,52 +192,62 @@
                         android:background="#424242"
                         android:layout_marginLeft="8dp"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Session Android"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
+                    <!-- Bill Stavroulakis -->
                     <LinearLayout
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
+                        android:id="@+id/stavroulakis"
                         android:background="?attr/selectableItemBackground">
 
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Getting Started with Progressive Web Apps"
+                            android:textSize="20sp"
                             android:layout_margin="8dp"/>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                            <TextView
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/stavroulakis"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bill Stavroulakis"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="PWA Room\nA1 | First Floor"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
 
                         </LinearLayout>
+
+
                     </LinearLayout>
 
                     <View
@@ -316,79 +256,63 @@
                         android:background="#424242"
                         android:layout_marginLeft="8dp"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Session Cloud"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
+                    <!-- Panayotis Tzinis -->
                     <LinearLayout
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
+                        android:id="@+id/tzinis"
                         android:background="?attr/selectableItemBackground">
 
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="See more of your world\nDigital Skills"
+                            android:textSize="20sp"
                             android:layout_margin="8dp"/>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                            <TextView
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/tzinis"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Panayotis Tzinis"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="GDG &amp; Lenovo Room\nΓ1 | Third Floor"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
 
                         </LinearLayout>
+
+
                     </LinearLayout>
-
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- Fireside Chat -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="12.10-12.45"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:layout_margin="8dp"/>
 
                     <View
                         android:layout_width="match_parent"
@@ -396,460 +320,63 @@
                         android:background="#424242"
                         android:layout_marginLeft="8dp"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Fireside Chat"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
+                    <!-- George Pittas -->
                     <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginBottom="8dp"/>
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- Lunch -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="12.45-14.00"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:layout_margin="8dp"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Lunch"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- Code Labs 1 -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="14.00-15.10"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:layout_margin="8dp"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Code Lab A"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
+                        android:id="@+id/pittas"
                         android:background="?attr/selectableItemBackground">
 
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Facebook Messenger Bots"
+                            android:textSize="20sp"
                             android:layout_margin="8dp"/>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                            <TextView
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/pittas"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="George Pittas"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Facebook Room\nE1 | Fifth Floor"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
 
                         </LinearLayout>
+
+
                     </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Code Lab B"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Code Lab C"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <!-- Sessions 2 -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="15.10-15.40"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:layout_margin="8dp"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Session Web"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Session Android"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Session Cloud"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -870,7 +397,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="15.40-17.00"
+                        android:text="15.30-17.00"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="25sp"
@@ -900,7 +427,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <!-- Code Labs 2 -->
+            <!-- Evi Katsoulieri -->
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -916,7 +443,196 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="17.00-18.10"
+                        android:text="17.00 - 17.30"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_margin="8dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#424242"
+                        android:layout_marginLeft="8dp"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:id="@+id/katsoulieri"
+                        android:background="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Startup Marketing 101"
+                            android:textSize="20sp"
+                            android:layout_margin="8dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/katsoulieri"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Evi Katsoulieri"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="THEATER"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- Eirini Tsakiridou -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17.30 - 18.00"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_margin="8dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#424242"
+                        android:layout_marginLeft="8dp"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:id="@+id/economidou"
+                        android:background="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fireside chat : Women Techmakers Greece"
+                            android:textSize="20sp"
+                            android:layout_margin="8dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_margin="8dp">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/tsakiridou"/>
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:src="@drawable/economidou"
+                                    android:layout_alignParentRight="true"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Irene Tsakiridou\nChristina Economidou"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="THEATER"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- Q&A -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18.00-18.30"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="25sp"
@@ -931,162 +647,21 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Code Lab A"
+                        android:text="Q&amp;A"
                         android:textSize="20sp"
                         android:layout_margin="8dp"/>
 
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
+                        android:layout_height="wrap_content">
 
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Code Lab B"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Code Lab C"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:background="?attr/selectableItemBackground">
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/person"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center_vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="SPEAKER NAME"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:textSize="17sp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginRight="8dp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Main Conference Room"
-                                android:textSize="17sp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-                                android:layout_marginLeft="8dp" />
-
-                        </LinearLayout>
                     </LinearLayout>
 
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
         </LinearLayout>
     </ScrollView>
 

@@ -119,10 +119,15 @@ public class NewsFeedFragment extends Fragment {
             }catch (JSONException e){
             }
 
+            RelativeLayout relativeLayout1 = new RelativeLayout(getContext());
+            relativeLayout1.setLayoutParams(new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,convertDpToPixel(8,getContext())));
+            twitterFeed.addView(relativeLayout1);
+
+
             CardView cardView = new CardView(getContext());
             ViewGroup.MarginLayoutParams params = new ViewGroup.MarginLayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             cardView.setLayoutParams(params);
-            setMargins(cardView,convertDpToPixel(16,getContext()),convertDpToPixel(8,getContext()),convertDpToPixel(16,getContext()),convertDpToPixel(8,getContext()));
+            setMargins(cardView,convertDpToPixel(16,getContext()),convertDpToPixel(0,getContext()),convertDpToPixel(16,getContext()),convertDpToPixel(0,getContext()));
 
             LinearLayout linearLayout = new LinearLayout(getContext());
             linearLayout.setOrientation(LinearLayout.VERTICAL);
@@ -162,11 +167,11 @@ public class NewsFeedFragment extends Fragment {
             }
 
             cardView.addView(linearLayout);
-            //RelativeLayout relativeLayout = new RelativeLayout(getContext());
-            //relativeLayout.setLayoutParams(new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,convertDpToPixel(16,getContext())));
+            RelativeLayout relativeLayout = new RelativeLayout(getContext());
+            relativeLayout.setLayoutParams(new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,convertDpToPixel(8,getContext())));
 
             twitterFeed.addView(cardView);
-            //twitterFeed.addView(relativeLayout);
+            twitterFeed.addView(relativeLayout);
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -181,7 +186,7 @@ public class NewsFeedFragment extends Fragment {
 
     private void setMargins (View view, int left, int top, int right, int bottom) {
         //if (view.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
-            ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) view.getLayoutParams();
+            CardView.MarginLayoutParams p = (CardView.MarginLayoutParams) view.getLayoutParams();
             p.setMargins(left, top, right, bottom);
             view.requestLayout();
         //}

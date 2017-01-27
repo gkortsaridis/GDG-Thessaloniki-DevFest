@@ -36,6 +36,8 @@ public class SponsorsFragment extends Fragment {
         final sponClass[] spons = new sponClass[]{
                 new sponClass("Google", R.drawable.google,"https://www.google.gr/"),
                 new sponClass("Google Developers", R.drawable.google_developers,"https://developers.google.com/"),
+                new sponClass("IEK AKMI", R.drawable.akmi,"http://www.iek-akmi.edu.gr/"),
+                new sponClass("Lenovo", R.drawable.lenovo,"http://www.lenovo.com/gr/el/"),
                 new sponClass("Women Techmakers", R.drawable.women_techmakers,"http://womentechmakers.gr/"),
                 new sponClass("GDG Thessaloniki", R.drawable.gdg_thessaloniki,"http://gdgthess.org/"),
                 new sponClass("GDG Heraklion", R.drawable.gdg_heraklion,"http://devfest.gr/"),
