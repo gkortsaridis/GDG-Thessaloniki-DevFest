@@ -27,7 +27,7 @@ public class Day2Calendar extends Fragment {
         katsoulieri.setTwitterUrl("https://twitter.com/EKatsoulieri");
         katsoulieri.setLinkedinUrl("https://www.linkedin.com/in/evikatsoulieri/");
 
-        kortsaridis = new spClass("Hack the Real World with ANDROID THINGS","George Kortsaridis", "ANROID THINGS is coming to town! Together, we will dive into more details about the I.O.T architecture, and we will learn how to code our awesome projects and hack our way to the top!", R.drawable.kortsaridis, "Android Things Room\nB3 | Second Floor" , "13.30");
+        kortsaridis = new spClass("Hack the Real World with ANDROID THINGS","George Kortsaridis", "ANROID THINGS is coming to town! Together, we will dive into more details about the I.O.T architecture, and we will learn how to code our awesome projects and hack our way to the top!", R.drawable.kortsaridis, "Android Things Room\nB3 | Second Floor" , "14.45");
         kortsaridis.setGplusUrl("https://plus.google.com/u/0/+GeorgeKortsaridis1");
         kortsaridis.setLinkedinUrl("https://www.linkedin.com/in/georgekortsaridis/");
         kortsaridis.setGithubUrl("https://github.com/gkortsaridis");
@@ -41,7 +41,7 @@ public class Day2Calendar extends Fragment {
                 "\n" +
                 "2. Digital Skills | Participants will choose what codelabs between Google Analytics and AdWords they would like to follow\n" +
                 "\n" +
-                "3. Moral Machine | An open debate on Morality – Humanity – Machinery", R.drawable.tzinis, "THEATER" , "13.30");
+                "3. Moral Machine | An open debate on Morality – Humanity – Machinery", R.drawable.tzinis, "THEATER" , "15.45");
         tzinis.setWebUrl("http://mustafar.xyz/");
         tzinis.setTwitterUrl("https://twitter.com/ptzinis");
         tzinis.setGplusUrl("https://plus.google.com/u/0/+PanayotisTzinis");

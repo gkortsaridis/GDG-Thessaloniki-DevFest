@@ -19,12 +19,12 @@ import com.gkortsaridis.gdgthessalonikidevfest.Speakers.spClass;
  */
 public class Day3Calendar extends Fragment {
 
-    spClass kortsaridis, stavroulakis, tzinis,tzinis1, pittas,nalbantis;
-    LinearLayout kortsaridisLL, stavroulakisLL, tzinisLL,tzinisLL1, pittasLL, nalbantisLL;
+    spClass kortsaridis, stavroulakis, tzinis,tzinis1,tzinis2, pittas,nalbantis;
+    LinearLayout kortsaridisLL, stavroulakisLL, tzinisLL,tzinisLL1,tzinisLL2, pittasLL, nalbantisLL;
 
     public Day3Calendar() {
         // Required empty public constructor
-        pittas = new spClass("Facebook Messenger Bots","George Pittas", "Every month, over 900 million people around the world communicate with friends, families and over 50 million businesses on Messenger. Over the past year Facebook has been expanding what people can do on Messenger. Part of that effort are the Bots. Bots can provide anything from automated subscription content like weather and news updates, to customized communications like receipts, shipping notifications, and live automated messages all by interacting directly with the people who want to get them. On that session we will focus on the Messenger’s capabilities, benefits for the businesses and how we can build our own Bot using wit.ai for human-like conversations.", R.drawable.pittas, "Facebook Room\nE1 | Fifth Floor" , "13.30");
+        pittas = new spClass("Facebook Messenger Bots","George Pittas", "Every month, over 900 million people around the world communicate with friends, families and over 50 million businesses on Messenger. Over the past year Facebook has been expanding what people can do on Messenger. Part of that effort are the Bots. Bots can provide anything from automated subscription content like weather and news updates, to customized communications like receipts, shipping notifications, and live automated messages all by interacting directly with the people who want to get them. On that session we will focus on the Messenger’s capabilities, benefits for the businesses and how we can build our own Bot using wit.ai for human-like conversations.", R.drawable.pittas, "Facebook Room\nE1 | Fifth Floor" , "15.45");
         pittas.setWebUrl("http://www.obstechnologies.com/");
 
         kortsaridis = new spClass("Hack the Real World with ANDROID THINGS","George Kortsaridis", "ANROID THINGS is coming to town! Together, we will dive into more details about the I.O.T architecture, and we will learn how to code our awesome projects and hack our way to the top!", R.drawable.kortsaridis, "Android Things Room\nB3 | Second Floor" , "13.30");
@@ -41,7 +41,7 @@ public class Day3Calendar extends Fragment {
                 "\n" +
                 "2. Digital Skills | Participants will choose what codelabs between Google Analytics and AdWords they would like to follow\n" +
                 "\n" +
-                "3. Getting Started with Machine Learning | Introduction to the world of Machine Learning", R.drawable.tzinis, "THEATER" , "13.30");
+                "3. Getting Started with Machine Learning | Introduction to the world of Machine Learning", R.drawable.tzinis, "THEATER" , "14.45");
         tzinis.setWebUrl("http://mustafar.xyz/");
         tzinis.setTwitterUrl("https://twitter.com/ptzinis");
         tzinis.setGplusUrl("https://plus.google.com/u/0/+PanayotisTzinis");
@@ -50,10 +50,19 @@ public class Day3Calendar extends Fragment {
                 "\n" +
                 "2. Digital Skills | Participants will choose what codelabs between Google Analytics and AdWords they would like to follow\n" +
                 "\n" +
-                "3. Getting Started with Machine Learning | Introduction to the world of Machine Learning", R.drawable.tzinis, "THEATER" , "17.30");
+                "3. Getting Started with Machine Learning | Introduction to the world of Machine Learning", R.drawable.tzinis, "THEATER" , "15.45");
         tzinis1.setWebUrl("http://mustafar.xyz/");
         tzinis1.setTwitterUrl("https://twitter.com/ptzinis");
         tzinis1.setGplusUrl("https://plus.google.com/u/0/+PanayotisTzinis");
+
+        tzinis2 = new spClass("See more of your world\nDigital Skills\nMoral Machine","Panayotis Tzinis", "1. Introducing Tango devices and what you can do with AR (Augmented Reality)\n" +
+                "\n" +
+                "2. Digital Skills | Participants will choose what codelabs between Google Analytics and AdWords they would like to follow\n" +
+                "\n" +
+                "3. Getting Started with Machine Learning | Introduction to the world of Machine Learning", R.drawable.tzinis, "THEATER" , "17.30");
+        tzinis2.setWebUrl("http://mustafar.xyz/");
+        tzinis2.setTwitterUrl("https://twitter.com/ptzinis");
+        tzinis2.setGplusUrl("https://plus.google.com/u/0/+PanayotisTzinis");
 
         nalbantis = new spClass("Exponential Growth. What next?","Michael E. Nalbantis", "Discussing about humanity’ s growth in general and also how techonlogy will affect our every day lives", R.drawable.nalbantis, "THEATER" , "17.00");
         nalbantis.setFbUrl("https://www.facebook.com/Brand4cosmos/");
@@ -70,6 +79,7 @@ public class Day3Calendar extends Fragment {
         stavroulakisLL = (LinearLayout) view.findViewById(R.id.stavroulakis);
         tzinisLL = (LinearLayout) view.findViewById(R.id.tzinis);
         tzinisLL1 = (LinearLayout) view.findViewById(R.id.tzinis1);
+        tzinisLL2 = (LinearLayout) view.findViewById(R.id.tzinis2);
         pittasLL = (LinearLayout) view.findViewById(R.id.pittas);
         nalbantisLL = (LinearLayout) view.findViewById(R.id.nalbantis);
 
@@ -98,6 +108,13 @@ public class Day3Calendar extends Fragment {
             @Override
             public void onClick(View view) {
                 openIntent(tzinis1);
+            }
+        });
+
+        tzinisLL2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openIntent(tzinis2);
             }
         });
 

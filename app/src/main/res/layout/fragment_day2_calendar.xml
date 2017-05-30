@@ -115,76 +115,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="13.30"
+                        android:text="13.30 - 14.30"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="25sp"
                         android:layout_margin="8dp"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-
-                    <!-- George Kortsaridis -->
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:id="@+id/kortsaridis"
-                        android:background="?attr/selectableItemBackground">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Hack the Real World with ANDROID THINGS"
-                            android:textSize="20sp"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:layout_width="60dp"
-                                android:layout_height="60dp"
-                                android:src="@drawable/kortsaridis"
-                                android:layout_margin="8dp"/>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:layout_gravity="center_vertical">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="George Kortsaridis"
-                                    android:textColor="@color/black"
-                                    android:textStyle="bold"
-                                    android:textSize="17sp"
-                                    android:layout_marginLeft="8dp"
-                                    android:layout_marginRight="8dp"/>
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Android Things Room\nB3 | 2nd Floor"
-                                    android:textSize="17sp"
-                                    android:textColor="@color/black"
-                                    android:textStyle="bold"
-                                    android:layout_marginLeft="8dp" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
 
                     <View
                         android:layout_width="match_parent"
@@ -238,70 +173,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="PWA Room\nA1 | First Floor"
-                                    android:textSize="17sp"
-                                    android:textColor="@color/black"
-                                    android:textStyle="bold"
-                                    android:layout_marginLeft="8dp" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#424242"
-                        android:layout_marginLeft="8dp"/>
-
-                    <!-- Panayotis Tzinis -->
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:id="@+id/tzinis"
-                        android:background="?attr/selectableItemBackground">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="See more of your world\nDigital Skills"
-                            android:textSize="20sp"
-                            android:layout_margin="8dp"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:layout_width="60dp"
-                                android:layout_height="60dp"
-                                android:src="@drawable/tzinis"
-                                android:layout_margin="8dp"/>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:layout_gravity="center_vertical">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Panayotis Tzinis"
-                                    android:textColor="@color/black"
-                                    android:textStyle="bold"
-                                    android:textSize="17sp"
-                                    android:layout_marginLeft="8dp"
-                                    android:layout_marginRight="8dp"/>
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="GDG &amp; Lenovo Room\nΓ1 | Third Floor"
                                     android:textSize="17sp"
                                     android:textColor="@color/black"
                                     android:textStyle="bold"
@@ -381,7 +252,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <!-- Break -->
+            <!-- Sessions 1 -->
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -397,7 +268,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="15.30-17.00"
+                        android:text="14.45 - 15:30"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="25sp"
@@ -409,20 +280,154 @@
                         android:background="#424242"
                         android:layout_marginLeft="8dp"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Break"
-                        android:textSize="20sp"
-                        android:layout_margin="8dp"/>
 
+                    <!-- George Kortsaridis -->
                     <LinearLayout
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:id="@+id/kortsaridis"
+                        android:background="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hack the Real World with ANDROID THINGS"
+                            android:textSize="20sp"
+                            android:layout_margin="8dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/kortsaridis"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="George Kortsaridis"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Android Things Room\nB3 | 2nd Floor"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
 
                     </LinearLayout>
 
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- Sessions 1 -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15.45 - 16:45"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_margin="8dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#424242"
+                        android:layout_marginLeft="8dp"/>
+
+
+                    <!-- Panayotis Tzinis -->
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:id="@+id/tzinis"
+                        android:background="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Digital Skills"
+                            android:textSize="20sp"
+                            android:layout_margin="8dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:src="@drawable/tzinis"
+                                android:layout_margin="8dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Panayotis Tzinis"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:textSize="17sp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="GDG &amp; Lenovo Room\nΓ1 | Third Floor"
+                                    android:textSize="17sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="8dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
